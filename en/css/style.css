@@ -108,7 +108,13 @@ header{
     border-radius: 10px;
     animation: none;
 }
-.contact-button > a{
+a{
+    color: #000;
+}
+a:hover{
+    text-decoration: none;
+}
+a:hover{
     text-decoration: none;
     color: #000;
 }
