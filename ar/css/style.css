@@ -96,8 +96,10 @@ header{
     border-top: 2px solid #11a9af;
     border-bottom: 2px solid #11a9af;
     transition: background-color 0.5s ease;
-    animation: button 3s infinite;
-    padding: 5px;
+    animation: button 2s infinite;
+    padding: 55px;
+    margin-top: 75px;
+    width: 55%;
 }
 .contact-button:hover{
     background-color: #11a9af;
@@ -110,12 +112,12 @@ header{
     color: #000;
 }
 @media (max-width: 390px) {
-    #contact-button{
-        display: none;
-    }
     #me {
         margin-top: -90px;
         margin-bottom: 35px;
+    }
+    .contact-button {
+        margin: 30px auto;
     }
 }
 @keyframes button {
@@ -168,6 +170,9 @@ section {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+section.home > div#div:first-child{
+    width: 355px !important;
 }
 .name{
     display: flex;
@@ -522,7 +527,7 @@ footer {
     background-color: #11a9af;
     color: #1c1c1c;
     margin-top: 30px;
-    font-size: 14px;
+    font-size: 17px;
     font-family: Arial, sans-serif;
     position: sticky;
     bottom: 0;
