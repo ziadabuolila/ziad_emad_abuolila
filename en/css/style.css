@@ -222,6 +222,9 @@ section {
 .icon-first{
     color: #13b770;
 }
+.icon-facebook{
+    color: #2f2fff;
+}
 .brand a {
     display: flex;
     align-items: center;
